@@ -1,6 +1,8 @@
 # Credits: 
-# Our method is taking based on the mPBWT originally published by Ardlan et al. in 2019
+# Our method is inspired and based on the PBWT originally published by Durbin et al. in 2014 and mPBWT published by Ardlan et al. in 2019
+# Durbin, R. (2014). Efficient haplotype matching and storage using the positional Burrows–Wheeler transform (PBWT). Bioinformatics, 30(9), 1266-1272.
 # Naseri, A., Zhi, D., & Zhang, S. (2019). Multi-allelic positional Burrows-Wheeler transform. BMC bioinformatics, 20, 1-8.
+
 
 from collections import Counter
 import random
