@@ -19,6 +19,6 @@ Once you have the examples generated, simply run run_benchmark_beagle.sh, run_be
 Post-run, you can compute accuracy for GLIMPSE and Beagle results using get_imputation_accuracy.py (accuracy at all missing sites) and get_imputation_accuracy_ma.py (accuracy at just multi-allelic sites). Both scripts take the *target_gt.vcf, *target.vcf, and *imputed.vcf files as positional arguments 1, 2, and 3 on the command line.
 
 **Credits:**  
-Our method is inspired and based on the PBWT originally published by Durbin et al. in 2014 and mPBWT published by Ardlan et al. in 2019
-Durbin, R. (2014). Efficient haplotype matching and storage using the positional Burrows–Wheeler transform (PBWT). Bioinformatics, 30(9), 1266-1272.
-Naseri, A., Zhi, D., & Zhang, S. (2019). Multi-allelic positional Burrows-Wheeler transform. BMC bioinformatics, 20, 1-8.
+Our method is inspired and based on the PBWT originally published by Durbin et al. in 2014 and mPBWT published by Ardlan et al. in 2019  
+- Durbin, R. (2014). Efficient haplotype matching and storage using the positional Burrows–Wheeler transform (PBWT). Bioinformatics, 30(9), 1266-1272.  
+- Naseri, A., Zhi, D., & Zhang, S. (2019). Multi-allelic positional Burrows-Wheeler transform. BMC bioinformatics, 20, 1-8.
