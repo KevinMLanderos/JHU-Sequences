@@ -1,3 +1,7 @@
+# Credits: 
+# Our method is taking based on the mPBWT originally published by Ardlan et al. in 2019
+# Naseri, A., Zhi, D., & Zhang, S. (2019). Multi-allelic positional Burrows-Wheeler transform. BMC bioinformatics, 20, 1-8.
+
 from collections import Counter
 import random
 import pysam
