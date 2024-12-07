@@ -153,7 +153,7 @@ def imputation(matches, k, X):
         matches (list): List of lists with structure: [Haplotype1, Haplotype2, start, End, k, Len]
         k (int): Current position index.
     Returns:
-        consensus_allele (list): Consensus allele for quey sequence in next position.
+        consensus_allele (int): Consensus allele for quey sequence in next position.
     """
     max_value = 0; alleles = []
     # Iterate over the list of lists once
@@ -187,7 +187,7 @@ def iterate_over_positions(s, X, L, t):
         L (int): Minimum match length.
         t (int): Number of alleles.
     Outputs:
-        Matches for each position k.
+        Matches (list) Imputed alles for input query
     """
     # Include new sequence to  X
     X = X + [s] 
