@@ -5,7 +5,11 @@ Members: Yi Yang, Kevin Meza Landeros, Kiki Zhang, Nicole Brown
 -----
 
 ### Our method:  
-To run our algorithm, input files should be obtained from the data folder (reference VCF: data/ref.vcf, target VCF: data/target.vcf), which constitute a small subset of variants from chromosome 22. Also python dependencies should be installed, particularly pysam, which is used to handle VCF files. Script “src/imputation_with_PBWT 2.py” should be run, and it will produce a VCF file as an output containing the imputed alleles named “imputed_results_updated.vcf”.
+python dependencies should be installed, particularly ***pysam***, which is used to handle VCF files
+To run our algorithm, input files should be obtained from the data folder:  
+**Example 1**: reference VCF: data/ref.vcf, target VCF: data/target.vcf  
+**Example 2**: reference VCF: data/ref_1000_1000.vcf, target VCF: data/target_1000_1000.vcf  
+Those datasets constitute a small subset of variants from chromosome 22 and a bigger subset containing all chromosomes. Script “src/imputation_with_PBWT_3.py” should be run, and it will produce a VCF file as an output containing the imputed alleles named “imputed_results_updated.vcf”.
 
 ### Parallelization evaluation analysis:   
 run src/parallelization_with_mPBWT, it would run the parallelization, evaluate the mPBWT in both parallel and sequential across different scenarios, and output the comparison plot. 
